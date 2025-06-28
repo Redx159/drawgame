@@ -1,4 +1,4 @@
-const socket = io('drawgame-production.up.railway.app'); // Make sure this matches your server address
+const socket = io('https://drawgame-production.up.railway.app'); // Use full URL with https
 
 const app = document.getElementById('app');
 
