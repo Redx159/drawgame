@@ -1,5 +1,4 @@
-const socket = io('https://drawgame-production.up.railway.app'); // Use full URL with https
-
+const socket = io('https://drawgame-production.up.railway.app'); // <-- use your actual Railway backend URL
 const app = document.getElementById('app');
 
 function renderHome() {
