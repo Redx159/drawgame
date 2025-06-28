@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000'); // Make sure this matches your server address
+const socket = io('drawgame-production.up.railway.app'); // Make sure this matches your server address
 
 const app = document.getElementById('app');
 
