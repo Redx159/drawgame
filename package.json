@@ -1,30 +1,17 @@
 {
-  "name": "online-drawing-game",
+  "name": "drawing",
   "version": "1.0.0",
-  "description": "An online drawing game where players draw based on themes and rate each other's drawings.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "drawing",
-    "game",
-    "online",
-    "canvas"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "webpack": "^5.64.4",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^3.11.2"
-  },
-  "devDependencies": {
-    "babel-loader": "^8.2.3",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^6.5.1",
-    "style-loader": "^3.3.1"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
   }
 }
